@@ -8,11 +8,22 @@ request.onreadystatechange = function(){
             $("#description").html(function(){
             return(weatherDescription)
             })
+            
+            //if weatherDescription has key word e.g. cloud, rain - display the relevant symbol
+            //$('#symbol').html(function(){
+            //if (weatherDescription.indexOf('cloud')){
+            //$('#fa fa-cloud')
+            //} else{
+                //return ("no symbol")
+           // }
+    
+            //})
          
             $("#temp").html(function(){
             return(temperature + ' ℃')
              })
     }
+
     $('#overlay').hide()
 
 }
