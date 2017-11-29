@@ -55,3 +55,7 @@
     transform: rotate(360deg);
   }
 }
+
+#current-weather {
+  padding:10px;
+}
